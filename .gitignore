@@ -6,6 +6,11 @@
 *.lo
 *.o
 *.obj
+*.elf
+*.hex
+*.eep
+*.lst
+*.bin
 
 # Precompiled Headers
 *.gch
@@ -39,3 +44,12 @@
 
 # debug information files
 *.dwo
+
+# emacs temp files
+*~
+.#*
+
+# MacOS annoyance
+.DS_Store
+Thumbs.db
+._*
